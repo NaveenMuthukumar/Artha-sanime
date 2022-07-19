@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <img src="logo.png" alt="" />
+          <h1>Artha's<span>anime</span></h1>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="season.html">SeasonalAnime</a></li>
+          <li><a href="manga.html">Manga</a></li>
+          <li><a href="fav.html">Favourite</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </header>
+      <div class="main">
+        <div class="main-one">
+          <span class="title">Summer Collection</span>
+          <h1 id="name">Dragon Ball-Z</h1>
+          <span class="subtitle">Top row in Season</span>
+          <div class="underline"></div>
+          <p id="anime">
+            Dragon ball-Z is a Japanese anime television series produced by Toei Animation. 
+            Part of the Dragon Ball media franchise, it is the sequel to the 1986.It continues 
+            the adventures of Son Goku in his adult life as he and his companions defend the Earth
+            against villains including aliens (Vegeta, Frieza), androids (Cell), and magical creatures(Majin Buu). 
+          </p>
+          <button>Watch now</button>
+        </div>
+        <div class="main-two">
+            <img class="image" src="6.png" alt="pic" >
+        </div>
+    </div>
+    <div class="subpics">
+          <img src="6-1.png" alt="pic" onclick="imageupdate('6.png')" ondblclick="Dbz()">
+          <img src="7-1.png"  alt="pic" onclick="imageupdate('7.png')" ondblclick="Naruto()">
+          <img src="8-1.png" alt="pic" onclick="imageupdate('8.png')" ondblclick="Fairytail()">
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
